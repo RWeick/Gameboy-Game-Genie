@@ -1,0 +1,106 @@
+(footprint "Drill Holes"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.02 -1.56 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "141eef7f-d092-4e91-ac99-b95604b2886f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Drill Holes"
+		(at 0.02 -0.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ab69ce5-3cbb-450f-8c0e-138ca89d8c75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.02 -1.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2600289-c19e-4595-9c87-1d3866807427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.02 -1.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2abf1a59-0cbe-49db-9631-1dcced6cd0d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.02 -1.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "816369a0-9997-4db6-87a0-f3c2e0f9ff60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.02 1.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "56300c2c-229e-4968-9480-ea25f181a3d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -20.9 -3.85)
+		(size 2.6 2.6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8482975-55ec-4f17-af83-2f931f8b6de4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae7c5734-b24f-4eb5-aed8-e6722c5b9bf2")
+	)
+	(pad "3" thru_hole circle
+		(at 21 -0.5)
+		(size 2.6 2.6)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "731adb0f-bb50-4d00-b243-05c91f7cb29d")
+	)
+)
